@@ -1,5 +1,11 @@
 # Función para multiplicar una matriz por un escalar
-def multiplicar_matriz_por_escalar(matriz, escalar)
+def multiplicar_matriz_por_escalar(matriz, escalar) 
+=begin
+    Declaramos las variables "matriz" y "escalar" 
+    dentro de los propios parámetros. Esto gracias a que Ruby es
+    un lenguaje interpretado.
+=end
+
   filas = matriz.length
   columnas = matriz[0].length
   resultado = []
